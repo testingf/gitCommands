@@ -1,0 +1,18 @@
+GIT Command from command-line
+==============================
+git --version * version of git
+git config --global user.name "Test" * name of the user
+git config --global user.email "test@test.com" * user e-mail
+git config -- list * get list of setting with username and email
+
+pwd * printed current working directory
+mkdir * make directory into pwd
+git init * create repo for the selected directory and track the changes in selected folder
+touch 'index.html' * create particulary file
+git status * status of directory if any change came out
+git add index.html * adding (staging) to commit selected file
+git commit -m 'My Commit' * commit chages (-m stands for message)
+git commit -a -m 'Commentar' * adding to staging and commit in one line
+git checkout -- . * restore file back to the way they were (discard changes)
+
+To solve if some proccess block the GitBush: --> rm -f .git/index.lock * another proces inused
